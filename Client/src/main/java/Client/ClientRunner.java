@@ -3,7 +3,7 @@ package Client;
 import java.util.Scanner;
 
 public class ClientRunner {
-    public static final int PORT = 18666;
+    public static final int PORT = 10274;
 
     public static void main(String[] args) {
         Client client = new Client(PORT);

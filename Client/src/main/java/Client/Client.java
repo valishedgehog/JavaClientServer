@@ -99,7 +99,7 @@ public class Client {
             socket = new Socket(InetAddress.getByName(hostname), port);
             inputStream = new DataInputStream(socket.getInputStream());
             outputStream = new DataOutputStream(socket.getOutputStream());
-            printStream.println("Connected to DBMS Server on port: " + port);
+            printStream.println("Connected to NioServer on port: " + port);
             connectionAttempts = 0;
             return true;
         } catch (Exception e) {

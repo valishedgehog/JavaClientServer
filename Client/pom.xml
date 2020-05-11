@@ -26,7 +26,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>Client.Client</mainClass>
+                            <mainClass>Client.ClientRunner</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
